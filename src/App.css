@@ -1,0 +1,104 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ label{
+  margin: .5rem;
+  margin-top: .8rem;
+}
+input{
+  border-radius: 5px;
+}
+h3{
+  margin-left: 3rem;
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+}
+p{
+  display: flex;
+  width: 23rem;
+  margin-left: 2rem;
+  line-height: 22px;
+  max-width: 100%;
+}
+span{
+font-size: 18px;
+font-weight: 500;
+} 
+nav{
+  position: fixed;
+  background:rgb(192, 198, 206);
+  width: 100%;
+  height: 3.5rem;
+}
+.filter{
+  position: fixed;
+   margin-left: 66rem; 
+}
+#logo img{
+  width: 9rem;
+  margin-top: -1.6rem;
+  margin-left: 2rem;
+}
+.title{
+  margin-top: -40rem;
+ margin-left: 3rem;
+ position: fixed;
+}
+#films{
+  width: 43rem;
+  margin-left: 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,.6);
+}
+#tl{
+  font-weight: 800;
+  text-shadow: 2px 2px 4px #fff;
+  word-wrap: break-word;
+  margin: 0 0 0.4em;
+  color: #282c34;
+}
+.title p{
+  font-size: 20px;
+  font-weight: 400;
+  color: #222;
+  line-height: 1.3;
+}
+body{
+  overflow:auto;
+}
+html{
+  overflow: hidden;
+}
